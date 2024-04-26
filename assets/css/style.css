@@ -1,0 +1,91 @@
+ *{
+
+        padding: auto;
+        margin: 0;
+        box-sizing: border-box;
+        /* thẻ * là dùng cho tất cả dù có chữ hay ko  */
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: ; font chữ trong tất cả  webside  */
+}
+/* 
+1.Từ ngoài vào trong 
+2.Từ trên xuống dưới
+3.Từ tổng quan tới chi tiết 
+*/
+/* 
+1. vị trí
+2. kích thước (width=rộng , height= cao)
+3. màu sắc
+4.kiểu dáng (kiểu chữ, hình tròn, vuông...)
+*/
+
+#main{
+
+}
+
+#header{
+    height: 46px;
+    background-color: #000;
+    
+
+}
+#nav {
+    
+
+}
+
+#nav li {
+    /* display: inline-block; in trên 1 hàng ngang  */
+    display: inline-block;
+}
+
+#nav li a {
+ color: #fff;
+ text-decoration: none;
+ line-height: 46px;
+ /* line-height: 46px; canh giữa  */
+ padding: 0 24px;
+/* padding: 0 24px; canh chiều ngang của chữ  0 là trên dưới , trái phải 24px */
+ display: inline-block;
+ /* display: inline-block; in viền chọn to hơn   */
+
+
+}
+/* :hover tạo lớp trỏ chuột hiện màu  */
+#nav li a:hover{
+    color: #000 !important;
+    background-color: #ccc !important;
+   
+}
+
+#nav .subnav {
+    display: none;
+    color: #fff;
+    text-decoration: none;
+    /*  text-decoration: none; không có dấu  gạch chân */
+    
+}
+
+#nav .subnav li a :hover{
+    color: #000 !important;
+    background-color: #ccc !important;
+
+}
+
+#sileder{
+    min-height: 400px;
+    background-color:#fff;
+
+}
+
+#conten{
+
+}
+
+#footer{
+
+}
+
+
